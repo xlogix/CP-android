@@ -1,0 +1,76 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion "25.0.2"
+
+    /*signingConfigs {
+        release {
+            try {
+                storeFile file("android-key.jks")
+                storePassword KEYSTORE_PASSWORD
+                keyAlias KEYSTORE_ALIAS
+                keyPassword KEY_PASSWORD
+            } catch (ex) {
+                throw new InvalidUserDataException("You should define KEYSTORE_PASSWORD, KEYSTORE_ALIAS and KEY_PASSWORD in gradle.properties." + ex)
+            }
+        }
+    }*/
+
+    defaultConfig {
+        applicationId "com.elgo.android"
+        minSdkVersion 16
+        targetSdkVersion 25
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner 'android.support.test.runner.AndroidJUnitRunner'
+    }
+
+    buildTypes {
+        debug {
+            minifyEnabled false
+            shrinkResources false
+            versionNameSuffix '-DEBUG'
+        }
+        release {
+            shrinkResources true
+            minifyEnabled true
+            //signingConfig signingConfigs.release
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    // `return void` removes the lint error: `Not all execution paths return a value`.
+    return void
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:25.1.0'
+    compile 'com.android.support:design:25.1.0'
+    compile 'pub.devrel:easypermissions:0.2.1'
+
+    // Facebook Android SDK (only required for Facebook Login)
+    compile 'com.facebook.android:facebook-android-sdk:[4,5)'
+
+    // Firebase
+    compile 'com.google.firebase:firebase-core:10.0.1'
+    compile 'com.google.firebase:firebase-database:10.0.1'
+    compile 'com.google.firebase:firebase-auth:10.0.1'
+    compile 'com.google.firebase:firebase-messaging:10.0.1'
+    compile 'com.google.firebase:firebase-storage:10.0.1'
+
+    // Google Sign In SDK (only required for Google Sign In)
+    compile 'com.google.android.gms:play-services-auth:10.0.1'
+
+    androidTestCompile 'com.android.support.test.espresso:espresso-core:2.2.2'
+    androidTestCompile 'com.android.support.test:runner:0.5'
+    androidTestCompile 'com.android.support:support-annotations:25.1.0'
+}
+
+// Add to the bottom of the file
+apply plugin: 'com.google.gms.google-services'

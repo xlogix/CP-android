@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#448AFF</color>
+    <color name="colorPrimaryDark">#1565C0</color>
+    <color name="colorAccent">#757575</color>
+
+    <!-- Material Design Colors -->
+    <color name="transparent">#00000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="grey_50">#F5F5F5</color>
+    <color name="grey_200">#EEEEEE</color>
+    <color name="grey_500">#757575</color>
+    <color name="light_blue_500">#03A9F4</color>
+    <color name="google_blue_500">#4285F4</color>
+    <color name="google_blue_700">#3367D6</color>
+    <color name="google_blue_900">#1C3AA9</color>
+
+    <!--Layouts-->
+    <color name="red500">#db4437</color>
+    <color name="textLight">#546e7a</color>
+    <color name="textLight30">#4d6b8d9c</color>
+
+</resources>

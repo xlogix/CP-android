@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">(E)LGO!</string>
+    <string name="advertise">Made with love, #fnplus</string>
+    <string name="facebook_app_id">1891853967708781</string>
+
+    <!--AuthActivity-->
+    <string name="loading">Loading&#8230;</string>
+    <string name="register_yourself">Register Yourself</string>
+    <string name="prompt_name">Name</string>
+    <string name="prompt_regNo">Registration Number</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="or">OR</string>
+
+    <!--EasyPermissions-->
+    <string name="rationale_permission">Storage Permission is required for the app to work.</string>
+    <string name="rationale_ask_again">This app may not work correctly without the requested permissions. Open the app settings screen to modify app permissions.</string>
+    <string name="setting">Settings</string>
+    <string name="cancel">Cancel</string>
+
+    <!--MainActivity-->
+    <string name="welcome">Welcome</string>
+    <string name="lego_description">Something about ELGO. Learn and Earn on the go</string>
+    <string name="speaker">Wait for the speaker to announce the access code.</string>
+
+    <!--PreLoginActivity-->
+    <string name="free_resources">View Free Resources</string>
+    <string name="continue_login">Sign me up!</string>
+
+
+    <!--SplashActivity-->
+
+    <!--LastActivity-->
+    <string name="text_last_1">Thanks for registering with us. Further details about the programs will be sent to you soon via mail.</string>
+    <string name="feedback">Got Feedback? We\'ll appreciate it!</string>
+    <string name="send_feedback">send</string>
+
+</resources>

@@ -1,0 +1,94 @@
+{
+  "project_info": {
+    "project_number": "120790362850",
+    "firebase_url": "https://lego-8ef7a.firebaseio.com",
+    "project_id": "lego-8ef7a",
+    "storage_bucket": "lego-8ef7a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:120790362850:android:5b69d1577de3092d",
+        "android_client_info": {
+          "package_name": "com.android.lego"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "120790362850-4ft5i07413e4ns6t8j8s1l0i1a2ju3k6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.android.lego",
+            "certificate_hash": "35E60C5CB86EDACC88EEB43CF6A06FA7274A685F"
+          }
+        },
+        {
+          "client_id": "120790362850-fca4g6t2lv1kjas8360amdafpp8oa168.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.android.lego",
+            "certificate_hash": "1B0D9C3B64871AD5D726A156E9EBF0DE84AB43EC"
+          }
+        },
+        {
+          "client_id": "120790362850-f11utfq0q64ap2hdk3jkqjmo3n1ekapn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzUgN4ubRJkrwK-T8I1iuQzD1Biv5J4qM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "120790362850-f11utfq0q64ap2hdk3jkqjmo3n1ekapn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:120790362850:android:298ffc5ba34a58c0",
+        "android_client_info": {
+          "package_name": "com.elgo.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "120790362850-f11utfq0q64ap2hdk3jkqjmo3n1ekapn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzUgN4ubRJkrwK-T8I1iuQzD1Biv5J4qM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
